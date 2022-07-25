@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h2>TEXT</h2>
+
+    <p>
+    <strong>Lorem</strong> ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    </p>
+    <p>
+    <blockquote><em><strong>Duis</strong> aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</em></blockquote>
+    </p>
+    <p>
+    <strong>Excepteur</strong> sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+    </p>
+  </body>
+  <h2>TABLE</h2>
+  <table>
+
+    <thead>
+      <tr>
+        <td></td>
+        <td colspan="3">Scores by quarter</td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td rowspan="2">Team Name</td>
+        <td colspan="2">First Half</td>
+        <td colspan="2">Second Half</td>
+      </tr>
+      <tr>
+        <td>Q1</td>
+        <td>Q2</td>
+        <td>Q3</td>
+        <td>Q4</td>
+      </tr>
+      <tr>
+        <td>Denver</td>
+        <td>7</td>
+        <td>3</td>
+        <td>0</td>
+        <td>7</td>
+      </tr>
+      <tr>
+        <td>Chicago</td>
+        <td>3</td>
+        <td>3</td>
+        <td>0</td>
+        <td>7</td>
+      </tr>
+    </tbody>
+  </table>
+  <h2>LIST</h2>
+  <ul>
+      <img src="https://upload.wikimedia.org/wikipedia/en/b/b9/New_England_Patriots_logo.svg" width="60" height="60"/>
+      <li><a href="https://www.patriots.com/" target="_blank">New England Patriots</a></li>
+      <ul>
+        <li>Coach: Bill B</li>
+        <li>QB</li>
+          <ol>
+            <li>Tom Brady</li>
+            <li>Mac Jones</li>
+            <li>Brian Hoyer</li>
+          </ol>
+      </ul>
+  </ul>
+  <ul>
+      <img src="https://upload.wikimedia.org/wikipedia/en/4/44/Denver_Broncos_logo.svg" width="60" height="60"/>
+      <li><a href="https://www.denverbroncos.com/" target="_blank">Denver Broncos</a></li>
+      <ul>
+        <li>Coach: Gary Kubiak</li>
+        <li>QB</li>
+          <ol>
+            <li>Peyton Manning</li>
+            <li>Brock Ostweiler</li>
+          </ol>
+      </ul>
+  </ul>
+  <h2>FORM</h2>
+  <form action="assessment.html" method="POST">
+    <label for="first">First</label>
+    <input type="text" name="First Name" id="First">
+    <label for="last">Last</label>
+    <input type="text" name="Last Name" id="Last">
+    <br>
+    <label for="Favorite Sport">Favorite Sport</label>
+    <select id="Favorite Sport" name="Favorite Sport"
+      <option value="Football">Football</option>
+      <option value="Bastketball">Basketball</option>
+      <option value="Soccer">Soccer</option>
+      <option value="Baseball">Baseball</option>
+      <option value="Hockey">Hockey</option>
+    </select>
+      <br>
+
+    <span>I have: </span>
+    <label for="Attended">Attended</label>
+    <input type="checkbox" id="Attended" name="personal exp" value="Attended">
+    <label for="Played">Played</label>
+    <input type="checkbox" id="Played" name="personal exp" value="Played">
+    <label for="Coached">Coached</label>
+    <input type="checkbox" id="Coached" name="personal exp" value="Coached">
+    <label for="Bet on">Bet on</label>
+    <input type="checkbox" id="Bet on" name="personal exp" value="Bet on">
+    <span>this sport.</span>
+    <br>
+
+    <span>For this sport, I prefer to watch:</span>
+    <label for="Amateur">Amateur</label>
+    <input type="radio" id="Amateur" name="viewing" value="Amateur">
+    <label for="College">College</label>
+    <input type="radio" id="College" name="viewing" value="College">
+    <label for="Professional">Professional</label>
+    <input type="radio" id="Professional" name="viewing" value="Professional">
+    <br>
+    
+    <input type="submit">
+  </form>
+</html>
